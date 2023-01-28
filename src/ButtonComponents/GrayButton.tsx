@@ -6,7 +6,7 @@ interface GrayValue {
 
 const GrayButton:React.FC <GrayValue> = ({text}) => {
   return(
-    <button className="bg-Gray text-Ash rounded-md p-3 w-40 font-semibold border-0">{text}</button>
+    <button className="bg-Gray text-Ash rounded-md text-base w-40 h-16 flex items-center justify-center font-semibold border-0 shadow-md lg:text-sm lg:h-12 lg:w-44 ">{text}</button>
     )
 };
 

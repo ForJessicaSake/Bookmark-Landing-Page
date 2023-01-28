@@ -15,11 +15,14 @@ module.exports = {
     },
     width: {
       wd: "21rem",
-      wth: "28rem",
+      wth: "29rem",
       wdd: "32rem",
   },
   height: {
     hd: "25rem",
+},
+fontFamily: {
+  font: ["Poppins", "sans-serif"],
 },
     },
   },
