@@ -6,11 +6,11 @@ const Hero: React.FC = () => {
   return (
     <main className="flex flex-col justify-center items-center mt-32 lg:flex-row lg:flex-row-reverse lg:px-14 lg:justify-between">
    <section className="relative h-52 ">
-        <figure className="bg-Blue w-96 h-44 rounded-l-full relative left-10 lg:left-24 lg:h-56 lg:w-wth"> </figure>
+        <figure className="bg-Blue w-80 h-44 rounded-l-full relative left-10 lg:left-24 lg:h-56 lg:w-wth"> </figure>
         <img
           src={HeroImage}
           alt="bookmark"
-          className="relative w-wth h-80 z-10 bottom-64 lg:bottom-80"
+          className="relative lg:w-wth w-80 lg:h-80 h-64 z-10 bottom-64 lg:bottom-80"
         />
       </section>
 
