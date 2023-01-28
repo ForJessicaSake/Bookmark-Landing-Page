@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Hero from "./Components/Hero";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-     <p>welcome to TypeScript</p>
+     <Navbar/>
+     <Hero/>
       </header>
     </div>
   );
