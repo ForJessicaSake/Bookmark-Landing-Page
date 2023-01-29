@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
         <h1 className="text-4xl font-bold w-96 text-Heading leading-relaxed lg:leading-10">
           A Simple Bookmark Manager
         </h1>
-        <p className="w-72 lg:w-width py-8 font-medium lg:py-4 text-sm text-text leading-7 lg:text-sm lg:leading-6">
+        <p className="w-72 py-8 lg:py-4 text-sm text-text leading-7 lg:text-base lg:w-wth lg:leading-8">
           A clean and simple interface to organize your favourite websites. Open
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
