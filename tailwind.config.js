@@ -16,6 +16,7 @@ module.exports = {
     width: {
       wd: "21rem",
       wth: "29rem",
+      width: "27rem",
       wdd: "32rem",
   },
   height: {
