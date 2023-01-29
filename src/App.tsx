@@ -1,7 +1,8 @@
-import Bookmark from "./Components/Bookmark";
-import Features from "./Components/Features";
-import Hero from "./Components/Hero";
-import Navbar from "./Components/Navbar";
+import Bookmark from "./components/Bookmark";
+import Extension from "./components/Extension";
+import Features from "./components/Features";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Hero/>
      <Features/>
      <Bookmark/>
+     <Extension/>
       </header>
     </div>
   );

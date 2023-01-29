@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImage from "../Images/illustration-hero.svg";
-import Button from "../ButtonComponents/CustomButton";
-import GrayButton from "../ButtonComponents/GrayButton";
+import Button from "../buttonComponents/CustomButton";
+import GrayButton from "../buttonComponents/GrayButton";
 const Hero: React.FC = () => {
   return (
     <main className="flex flex-col justify-center items-center mt-32 lg:flex-row lg:flex-row-reverse lg:px-14 lg:justify-between">
@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           A clean and simple interface to organize your favourite websites. Open
           a new browser tab and see your sites load instantly. Try it for free.
         </p>
-        <section className="flex justify-between w-wd py-2 lg:w-96">
+        <section className="flex justify-between w-wdh  py-2 lg:w-HeroBtn">
           <Button text="Get it on Chrome" />
           <GrayButton text="Get it on Firefox" />
         </section>

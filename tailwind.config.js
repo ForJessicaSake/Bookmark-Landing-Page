@@ -15,8 +15,11 @@ module.exports = {
     },
     width: {
       wd: "21rem",
+      wdh: "23rem",
+      HeroBtn: "26rem",
       wth: "29rem",
       width: "27rem",
+      Extensionwidth: "34rem",
       wdd: "36rem",
   },
   height: {
