@@ -1,8 +1,8 @@
 const Features: React.FC = () => {
   return (
     <main className="flex flex-col justify-center items-center pt-14">
-      <h1 className="text-2xl font-bold py-4 text-Heading">Features</h1>
-      <p className="text-sm lg:text-base text-text text-center w-80 leading-7 lg:w-wdd lg:leading-8">
+      <h1 className="lg:text-2xl text-3xl font-bold py-4 text-Heading">Features</h1>
+      <p className="text-base lg:text-base text-text text-center w-wd leading-7 lg:w-wdd lg:leading-8">
         Our aim is to make it quick and easy for you to access your favourite
         websites. Your bookmarks sync between your devices so you can access
         them on the go.

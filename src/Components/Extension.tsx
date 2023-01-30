@@ -5,7 +5,7 @@ import Card from "../cardComponents/Card";
 
 const Extension: React.FC = () => {
   return (
-    <main className="lg:pt-48 pt-32">
+    <main className="lg:pt-48 pt-14">
       <section className="flex flex-col justify-center items-center text-center">
         <h1 className="text-Heading lg:text-2xl text-3xl font-bold w-96">
           Download the extension
@@ -15,7 +15,7 @@ const Extension: React.FC = () => {
           you've got a favourite you'd like us to prioritize.
         </p>
       </section>
-      <section className="grid grid-col-1 lg:flex lg:justify-evenly lg:px-32  pt-2">
+      <section className="flex flex-col items-center justify-center lg:flex-row lg:justify-evenly lg:px-32 pt-2">
         <Card
           extensionImage={logoChrome}
           extensionName="Add to Chrome"
