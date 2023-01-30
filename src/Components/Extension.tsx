@@ -21,14 +21,14 @@ const Extension: React.FC = () => {
           extensionName="Add to Chrome"
           extensionVersion="Minimum version 62"
         />
-        <div className="pt-6">
+        <div className="pt-8">
           <Card
             extensionImage={logoFirefox}
             extensionName="Add to Firefox"
             extensionVersion="Minimum version 55"
           />
         </div>
-        <div className="pt-12">
+        <div className="pt-20">
           <Card
             extensionImage={logoOpera}
             extensionName="Add to Opera"
