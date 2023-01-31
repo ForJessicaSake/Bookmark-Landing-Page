@@ -2,7 +2,7 @@ import CallToAction from "../buttonComponents/CallToAction";
 
 const Down: React.FC = () => {
   return (
-    <section className="flex flex-col h-96 justify-center items-center mt-20 bg-down w-screen text-downText">
+    <section className="flex flex-col h-96 justify-center items-center mt-20 bg-down w-screen text-downText px-2">
       <h4 className="text-lg font-semibold tracking-widest pb-4">
         35,000 + ALREADY JOINED
       </h4>
@@ -14,7 +14,7 @@ const Down: React.FC = () => {
           placeholder="Enter your email address"
           className="w-80 rounded-md h-16 lg:h-10 lg:w-96 px-6 mb-6 text-black"
         />
-        <CallToAction text="Contact Us" />
+        <CallToAction text="Contact Us"/>
       </form>
     </section>
   );
