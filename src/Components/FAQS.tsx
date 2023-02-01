@@ -49,7 +49,7 @@ const Faqs: React.FC = () => {
           </section>
         </section>
 
-        <section className="flex flex-col border-b-2 lg:border-t-2">
+        <section className="flex flex-col border-b-2">
           <li
             className="flex justify-between items-center py-4"
             onClick={handleQuestion2}
@@ -64,7 +64,7 @@ const Faqs: React.FC = () => {
           </section>
         </section>
 
-        <section className="flex flex-col border-b-2 lg:border-t-2">
+        <section className="flex flex-col border-b-2">
           <li
             className="flex justify-between items-center py-4"
             onClick={handleQuestion3}
@@ -79,7 +79,7 @@ const Faqs: React.FC = () => {
           </section>
         </section>
 
-        <section className="flex flex-col border-b-2 lg:border-t-2">
+        <section className="flex flex-col border-b-2">
           <li
             className="flex justify-between items-center py-4"
             onClick={handleQuestion4}

@@ -1,4 +1,4 @@
-import Down from "./components/Down";
+import Contact from "./components/Contact";
 import Bookmark from "./components/Bookmark";
 import Extension from "./components/Extension";
 import Features from "./components/Features";
@@ -17,7 +17,7 @@ function App() {
         <Bookmark />
         <Extension />
         <Faqs />
-        <Down />
+        <Contact />
         <Footer />
       </header>
     </div>

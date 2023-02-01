@@ -1,6 +1,6 @@
 import CallToAction from "../buttonComponents/CallToAction";
 
-const Down: React.FC = () => {
+const Contact:React.FC = () => {
   return (
     <section className="flex flex-col h-96 justify-center items-center mt-20 bg-down w-screen text-downText px-2">
       <h4 className="text-lg font-semibold tracking-widest pb-4">
@@ -20,4 +20,4 @@ const Down: React.FC = () => {
   );
 };
 
-export default Down;
+export default Contact;
