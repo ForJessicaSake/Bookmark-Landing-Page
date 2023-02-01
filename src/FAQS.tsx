@@ -60,7 +60,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className="w-96 text-sm leading-8">{question2 ? "Check out our documentation to get a full description on how to use our products" : null}</p>
+            <p className="lg:px-0 px-2 w-96 text-sm leading-8">{question2 ? "Check out our documentation to get a full description on how to use our products" : null}</p>
           </section>
         </section>
 
@@ -75,7 +75,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className=" w-96 leading-8 text-sm">{question3 ? "Yes of course! The mobile application can be accessed from Google playstore or Applestore" : null}</p>
+            <p className="w-96 leading-8 text-sm">{question3 ? "Yes of course! The mobile application can be accessed from Google playstore or Applestore" : null}</p>
           </section>
         </section>
 
