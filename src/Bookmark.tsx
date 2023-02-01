@@ -1,5 +1,5 @@
 import Button from "./CustomButton";
-import BookmarkImage from "./illustration-bookmark.svg";
+import BookmarkImage from "./assets/illustration-bookmark.svg";
 const Bookmark: React.FC = () => {
   return (
     <main className="flex flex-col lg:flex-row lg:flex lg:justify-between items-center">

@@ -1,6 +1,6 @@
-import logoChrome from "./logo-chrome.svg";
-import logoFirefox from "./logo-firefox.svg";
-import logoOpera from "./logo-opera.svg";
+import logoChrome from "./assets/logo-chrome.svg";
+import logoFirefox from "./assets/logo-firefox.svg";
+import logoOpera from "./assets/logo-opera.svg";
 import Card from "./Card";
 
 const Extension: React.FC = () => {

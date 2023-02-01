@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Button from "./CustomButton";
-import arrowIcon from "./icon-arrow.svg";
+import arrowIcon from "./assets/icon-arrow.svg";
 
 const Faqs: React.FC = () => {
     const [question1, setQuestion1] = useState(false);

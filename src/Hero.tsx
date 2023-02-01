@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "./illustration-hero.svg";
+import HeroImage from "./assets/illustration-hero.svg";
 import Button from "./CustomButton";
 import GrayButton from "./GrayButton";
 const Hero: React.FC = () => {

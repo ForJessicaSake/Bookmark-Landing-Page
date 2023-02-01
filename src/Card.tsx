@@ -1,5 +1,5 @@
 import Button from "./CustomButton";
-import dot from "./bg-dots.svg"
+import dot from "./assets/bg-dots.svg"
 
 interface ExtensionProps {
   extensionImage: any;
