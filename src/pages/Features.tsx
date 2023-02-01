@@ -1,6 +1,6 @@
 const Features: React.FC = () => {
   return (
-    <main className="flex flex-col justify-center items-center pt-14">
+    <section className="flex flex-col justify-center items-center pt-14">
       <h1 className="lg:text-2xl text-3xl font-bold py-4 text-Heading">
         Features
       </h1>
@@ -20,7 +20,7 @@ const Features: React.FC = () => {
           </li>{" "}
         </ul>
       </aside>
-    </main>
+    </section>
   );
 };
 

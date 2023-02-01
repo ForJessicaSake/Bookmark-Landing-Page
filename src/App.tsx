@@ -9,7 +9,7 @@ import Footer from "./pages/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <header className="App-header overflow-x-hidden font-font">
         <Navbar />
         <Hero />
@@ -20,7 +20,7 @@ function App() {
         <Contact />
         <Footer />
       </header>
-    </div>
+    </main>
   );
 }
 

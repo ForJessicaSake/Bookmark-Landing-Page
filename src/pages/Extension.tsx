@@ -5,7 +5,7 @@ import Card from "../components/Card";
 
 const Extension: React.FC = () => {
   return (
-    <main className="lg:pt-48 pt-20 px-4 lg:px-0">
+    <section className="lg:pt-48 pt-20 px-4 lg:px-0">
       <section className="flex flex-col justify-center items-center text-center">
         <h1 className="text-Heading lg:text-2xl text-3xl font-bold w-96">
           Download the extension
@@ -36,7 +36,7 @@ const Extension: React.FC = () => {
           />
         </div>
       </section>
-    </main>
+    </section>
   );
 };
 
