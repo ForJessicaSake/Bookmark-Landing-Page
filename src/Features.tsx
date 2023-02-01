@@ -9,9 +9,9 @@ const Features: React.FC = () => {
         websites. Your bookmarks sync between your devices so you can access
         them on the go.
       </p>
-      <aside className="py-10 w-full lg:flex lg:justify-center lg:items-center lg:text-text text-base lg:text-base">
-      <ul className="lg:flex lg:justify-evenly cursor-pointer lg:border-b-2 lg:border-Gray px-0 lg:w-Downwidth lg:font-semibold flex justify-center lg:flex-row flex-col items-center w-full">
-        <li className="border-y-2 border-Gray lg:border-y-0 lg:border-b-2 lg:border-downBtn py-4 w-full text-center">
+      <aside className="py-10 w-96 lg:w-Featureswidth lg:flex lg:justify-center lg:items-center text-text lg:text-base">
+      <ul className="lg:flex lg:justify-evenly cursor-pointer lg:border-b-2 lg:border-Gray px-0 lg:w-Featureswidth lg:font-semibold flex justify-center lg:flex-row flex-col items-center w-full">
+        <li className=" text-zinc-600 border-y-2 border-Gray lg:border-y-0 lg:border-b-2 lg:border-downBtn py-4 w-full text-center">
             Simple Bookmarking
           </li>
           <li className="py-4  w-full text-center">Speedy Searching</li>
