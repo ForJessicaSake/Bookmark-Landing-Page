@@ -15,5 +15,4 @@ Contact
 Login
 
 ## Product
-Project Github Repo Link: (https://github.com/ForJessicaSake/Bookmark-landing-page)
-Production Website Link:(https://bookmark-landing-page-self.vercel.app/)
+Product display: [Production Website Link](https://bookmark-landing-page-self.vercel.app/)
