@@ -1,11 +1,11 @@
-import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
 import Bookmark from "./components/Bookmark";
 import Extension from "./components/Extension";
-import Features from "./components/Features";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Faqs from "./components/FAQS";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
