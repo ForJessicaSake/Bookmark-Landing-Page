@@ -3,11 +3,13 @@ import twitterImage from "./icon-twitter.svg";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex flex-col lg:flex-row lg:justify-around items-center justify-center h-96 lg:h-20 bg-Footer text-downText">
+    <footer className=" cursor-pointer flex flex-col lg:flex-row lg:justify-around items-center justify-center h-96 lg:h-20 bg-Footer text-downText">
       <section className="flex items-center flex-col lg:flex-row">
-        <h1 className="text-2xl lg:text-lg font-bold tracking-widest lg:mb-0 mb-14 ">
-          BOOKMARK
-        </h1>
+        <a href="#top">
+          <h1 className="text-2xl lg:text-lg font-bold tracking-widest lg:mb-0 mb-14 ">
+            BOOKMARK
+          </h1>
+        </a>
         <ul className="flex flex-col lg:flex-row lg:justify-between lg:h-0 lg:w-80 h-32 text-lg lg:text-sm tracking-widest justify-between items-center mb-14 lg:mb-0 lg:ml-12">
           <li>FEATURES</li>
           <li>PRICING</li>

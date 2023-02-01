@@ -7,9 +7,9 @@ const Navbar = () => {
   const [isLinksVisible, setLinksVisible] = useState(false);
 
   return (
-    <nav className="lg:px-14 mt-10 lg:flex lg:justify-between lg:items-center">
+    <nav className="lg:px-14 pt-8 lg:flex lg:justify-between lg:items-center cursor-pointer">
       <section className="flex justify-between items-center px-4">
-      <img src={logo} alt=""className=""/>
+      <a href="./" id="top"><img src={logo} alt=""className=""/></a>
       <img src={menu} alt="Navigation menu" className=" w-6 h-4 lg:hidden cursor-pointer" onClick={() => setLinksVisible(!isLinksVisible)} />
       </section>
       <section className={`${isLinksVisible ? 'block' : 'hidden'} lg:static bg-Blue h-5/6 lg:h-0 flex flex-col lg:flex-row justify-center items-center lg:bg-white absolute top-24  lg:w-5/12 pr-20 z-50 lg:flex lg:items-center`}>
