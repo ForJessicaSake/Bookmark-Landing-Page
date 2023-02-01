@@ -44,7 +44,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className=" w-full leading-8 text-sm">{question1 ? "Sometimes referred to as favorites or saved links" : null}</p>
+            <li className=" w-full leading-8 text-sm">{question1 ? "Sometimes referred to as favorites or saved links" : null}</li>
           </section>
         </section>
 
@@ -59,7 +59,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className="w-full text-sm leading-8">{question2 ? "Check out our documentation to get a full description on how to use our products" : null}</p>
+            <li className="w-full text-sm leading-8">{question2 ? "Check out our documentation to get a full description on how to use our products" : null}</li>
           </section>
         </section>
 
@@ -74,7 +74,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className="w-full leading-8 text-sm">{question3 ? "Yes of course! The mobile application can be accessed from Google playstore or Applestore" : null}</p>
+            <li className="w-full leading-8 text-sm">{question3 ? "Yes of course! The mobile application can be accessed from Google playstore or Applestore" : null}</li>
           </section>
         </section>
 
@@ -89,7 +89,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className="w-full leading-8 text-sm">{question4 ? "We can't say, but we know for sure that our product can meet all your needs." : null}</p>
+            <li className="w-full leading-8 text-sm">{question4 ? "We can't say, but we know for sure that our product can meet all your needs." : null}</li>
           </section>
         </section>
       </ul>
