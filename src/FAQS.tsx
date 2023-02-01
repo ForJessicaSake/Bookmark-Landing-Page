@@ -45,7 +45,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className=" w-96 leading-8 text-sm">{question1 ? "Sometimes referred to as favorites or saved links, a browser bookmark is a feature in which a browser allows you to save a link to a web page so you can access it again later without searching for the website again using a search engine, or having to manually enter the exact web address in your browser's search bar." : null}</p>
+            <p className=" w-96 leading-8 text-sm">{question1 ? "Sometimes referred to as favorites or saved links" : null}</p>
           </section>
         </section>
 
