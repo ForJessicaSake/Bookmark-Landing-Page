@@ -1,5 +1,4 @@
-import React from "react";
-export interface Value {
+interface Value {
   text: string;
 }
 const Button: React.FC<Value> = ({ text }) => {

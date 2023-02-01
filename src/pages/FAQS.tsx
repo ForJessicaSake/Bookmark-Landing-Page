@@ -3,11 +3,10 @@ import Button from "../components/button/CustomButton";
 import arrowIcon from "../assets/icon-arrow.svg";
 
 const Faqs: React.FC = () => {
-    const [question1, setQuestion1] = useState(false);
-    const [question2, setQuestion2] = useState(false);
-    const [question3, setQuestion3] = useState(false);
-    const [question4, setQuestion4] = useState(false);
-  
+    const [question1, setQuestion1] = useState<boolean>(false);
+    const [question2, setQuestion2] = useState<boolean>(false);
+    const [question3, setQuestion3] = useState<boolean>(false);
+    const [question4, setQuestion4] = useState<boolean>(false);
     const handleQuestion1 = () => {
       setQuestion1(!question1);
     };
