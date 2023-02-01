@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav className="lg:px-14 pt-8 lg:flex lg:justify-between lg:items-center cursor-pointer">
-      <section className="flex justify-between items-center px-4">
+      <section className="flex justify-between items-center lg:px-0 px-4">
       <a href="./" id="top"><img src={logo} alt=""className=""/></a>
       <img src={menu} alt="Navigation menu" className=" w-6 h-4 lg:hidden cursor-pointer" onClick={() => setLinksVisible(!isLinksVisible)} />
       </section>
