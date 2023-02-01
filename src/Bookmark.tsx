@@ -10,7 +10,7 @@ const Bookmark: React.FC = () => {
         <img
           src={BookmarkImage}
           alt="boomark"
-          className="relative w-96 h-56 z-10 bottom-64 lg:bottom-96 lg:left-14 lg:w-wdd lg:h-80"
+          className="relative w-96 h-52 z-10 bottom-64 lg:bottom-96 lg:left-14 lg:w-wdd lg:h-80"
         />
       </section>
       <section className="lg:w-5/12 lg:text-start flex flex-col justify-center items-center lg:justify-start lg:items-start lg:pt-20">
