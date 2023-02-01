@@ -1,5 +1,5 @@
-import facebookImage from "./assets/icon-facebook.svg";
-import twitterImage from "./assets/icon-twitter.svg";
+import facebookImage from "../assets/icon-facebook.svg";
+import twitterImage from "../assets/icon-twitter.svg";
 
 const Footer: React.FC = () => {
   return (
