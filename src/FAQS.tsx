@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "./buttonComponents/CustomButton";
+import Button from "./CustomButton";
 import arrowIcon from "./icon-arrow.svg";
 
 const Faqs: React.FC = () => {

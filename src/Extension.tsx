@@ -1,7 +1,7 @@
 import logoChrome from "./logo-chrome.svg";
 import logoFirefox from "./logo-firefox.svg";
 import logoOpera from "./logo-opera.svg";
-import Card from "./cardComponents/Card";
+import Card from "./Card";
 
 const Extension: React.FC = () => {
   return (

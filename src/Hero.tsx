@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImage from "./illustration-hero.svg";
-import Button from "./buttonComponents/CustomButton";
-import GrayButton from "./buttonComponents/GrayButton";
+import Button from "./CustomButton";
+import GrayButton from "./GrayButton";
 const Hero: React.FC = () => {
   return (
     <main className="flex flex-col justify-center items-center mt-36 lg:flex-row lg:flex-row-reverse lg:px-14 lg:justify-between">
