@@ -29,11 +29,11 @@ const Faqs: React.FC = () => {
       <h1 className="text-3xl lg:text-2xl font-bold text-center leading-10">
         Frequently Asked Questions
       </h1>
-      <p className="text-center w-96 lg:w-Downwidth lg:text-base lg:leading-9 py-6 leading-8 text-text text-base">
+      <p className="px-2 text-center w-96 lg:w-Downwidth lg:text-base lg:leading-9 py-6 leading-8 text-text text-base">
         Here are some of our FAQs. If you have any other questions you'd like
         answered please feel free to email us.
       </p>
-      <ul className="pt-6 lg:w-width lg:text-sm cursor-pointer">
+      <ul className="pt-6 lg:w-width w-96 px-4 lg:text-sm cursor-pointer">
         <section className="flex flex-col border-b-2 lg:border-t-2">
           <li
             className="flex justify-between items-center py-4"

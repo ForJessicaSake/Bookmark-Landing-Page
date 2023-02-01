@@ -20,7 +20,7 @@ module.exports = {
         wdh: "23rem",
         HeroBtn: "26rem",
         wth: "29rem",
-        width: "27rem",
+        width: "26rem",
         Extensionwidth: "34rem",
         Downwidth: "32rem",
         wdd: "36rem",
