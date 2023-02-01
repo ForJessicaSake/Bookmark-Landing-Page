@@ -1,7 +1,7 @@
 # Bookmark 
 
 ## About The Project
-I jumped right in and started learning TypeScript in December 2022 and then I went ahead to built a frontend mentor project using TypeScript in React. To top it all off, I nailed type checking props, hooks, and reusable components on my first attempt using TypeScript but I'm still struggling to structure my codes, my last deployments failed until I figured some way out of it.
+I recently delved into the world of TypeScript. I am putting my skills to the test by building a challenging frontend mentor project using TypeScript in React.  I was able to successfully typecheck props, hooks, and reusable components in my very first attempt.
 
 ## Blog
 Exciting news! I'll be documenting my entire project journey on [Hashnode](https://hashnode.com/@ForJessicasake), so make sure to follow along. You never know, you might just pick up some tips and tricks along the way. So, stay tuned!
