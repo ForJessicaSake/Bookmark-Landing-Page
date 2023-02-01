@@ -33,7 +33,7 @@ const Faqs: React.FC = () => {
         Here are some of our FAQs. If you have any other questions you'd like
         answered please feel free to email us.
       </p>
-      <ul className="pt-6 lg:w-width w-96 px-4 lg:text-sm cursor-pointer">
+      <ul className="pt-6 lg:w-Extensionwidth w-96 px-4 lg:text-sm cursor-pointer">
         <section className="flex flex-col border-b-2 lg:border-t-2">
           <li
             className="flex justify-between items-center py-4"
@@ -45,7 +45,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className=" w-96 leading-8 text-sm">{question1 ? "Sometimes referred to as favorites or saved links" : null}</p>
+            <p className=" w-full leading-8 text-sm">{question1 ? "Sometimes referred to as favorites or saved links" : null}</p>
           </section>
         </section>
 
@@ -60,7 +60,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className="w-96 text-sm leading-8">{question2 ? "Check out our documentation to get a full description on how to use our products" : null}</p>
+            <p className="w-full text-sm leading-8">{question2 ? "Check out our documentation to get a full description on how to use our products" : null}</p>
           </section>
         </section>
 
@@ -75,7 +75,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className="w-96 leading-8 text-sm">{question3 ? "Yes of course! The mobile application can be accessed from Google playstore or Applestore" : null}</p>
+            <p className="w-full leading-8 text-sm">{question3 ? "Yes of course! The mobile application can be accessed from Google playstore or Applestore" : null}</p>
           </section>
         </section>
 
@@ -90,7 +90,7 @@ const Faqs: React.FC = () => {
             </span>
           </li>
           <section>
-            <p className="w-96 leading-8 text-sm">{question4 ? "We can't say, but we know for sure that our product can meet all your needs." : null}</p>
+            <p className="w-full leading-8 text-sm">{question4 ? "We can't say, but we know for sure that our product can meet all your needs." : null}</p>
           </section>
         </section>
       </ul>

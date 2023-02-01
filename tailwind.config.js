@@ -24,7 +24,7 @@ module.exports = {
         Extensionwidth: "34rem",
         Downwidth: "32rem",
         wdd: "36rem",
-        Featureswidth: "40rem",
+        Featureswidth: "44rem",
       },
       height: {
         hd: "25rem",
