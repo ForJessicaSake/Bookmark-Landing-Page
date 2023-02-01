@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import logo from "../Images/logo-bookmark.svg";
-import menu from "../Images/icon-hamburger.svg";
-import CallToAction from "../buttonComponents/CallToAction";
+import logo from "./logo-bookmark.svg";
+import menu from "./icon-hamburger.svg";
+import CallToAction from "./buttonComponents/CallToAction";
 
 const Navbar = () => {
   const [isLinksVisible, setLinksVisible] = useState(false);
