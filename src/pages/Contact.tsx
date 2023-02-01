@@ -1,4 +1,4 @@
-import CallToAction from "../CallToAction";
+import CallToAction from "../components/button/CallToAction";
 
 const Contact:React.FC = () => {
   return (

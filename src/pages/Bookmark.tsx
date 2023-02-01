@@ -1,4 +1,4 @@
-import Button from "../CustomButton";
+import Button from "../components/button/CustomButton";
 import BookmarkImage from "../assets/illustration-bookmark.svg";
 const Bookmark: React.FC = () => {
   return (
