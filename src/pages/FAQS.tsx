@@ -32,9 +32,9 @@ const Faqs: React.FC = () => {
         Here are some of our FAQs. If you have any other questions you'd like
         answered please feel free to email us.
       </p>
-      <ul className="pt-6 lg:w-Extensionwidth w-96 px-4 lg:text-sm cursor-pointer">
+      <template className="pt-6 lg:w-Extensionwidth w-96 px-4 lg:text-sm cursor-pointer">
         <section className="flex flex-col border-b-2 lg:border-t-2">
-          <li
+          <div
             className="flex justify-between items-center py-4"
             onClick={handleQuestion1}
           >
@@ -42,14 +42,14 @@ const Faqs: React.FC = () => {
             <span>
               <img src={arrowIcon} alt="arrow" />
             </span>
-          </li>
+          </div>
           <section>
-            <li className=" w-full leading-8 text-sm">{question1 ? "Sometimes referred to as favorites or saved links" : null}</li>
+            <div className=" w-full leading-8 text-sm">{question1 ? "Sometimes referred to as favorites or saved links" : null}</div>
           </section>
         </section>
 
         <section className="flex flex-col border-b-2">
-          <li
+          <div
             className="flex justify-between items-center py-4"
             onClick={handleQuestion2}
           >
@@ -57,14 +57,14 @@ const Faqs: React.FC = () => {
             <span>
               <img src={arrowIcon} alt="arrow" />
             </span>
-          </li>
+          </div>
           <section>
-            <li className="w-full text-sm leading-8">{question2 ? "Check out our documentation to get a full description on how to use our products" : null}</li>
+            <div className="w-full text-sm leading-8">{question2 ? "Check out our documentation to get a full description on how to use our products" : null}</div>
           </section>
         </section>
 
         <section className="flex flex-col border-b-2">
-          <li
+          <div
             className="flex justify-between items-center py-4"
             onClick={handleQuestion3}
           >
@@ -72,14 +72,14 @@ const Faqs: React.FC = () => {
             <span>
               <img src={arrowIcon} alt="arrow" />
             </span>
-          </li>
+          </div>
           <section>
-            <li className="w-full leading-8 text-sm">{question3 ? "Yes of course! The mobile application can be accessed from Google playstore or Applestore" : null}</li>
+            <div className="w-full leading-8 text-sm">{question3 ? "Yes of course! The mobile application can be accessed from Google playstore or Applestore" : null}</div>
           </section>
         </section>
 
         <section className="flex flex-col border-b-2">
-          <li
+          <div
             className="flex justify-between items-center py-4"
             onClick={handleQuestion4}
           >
@@ -87,12 +87,12 @@ const Faqs: React.FC = () => {
             <span>
               <img src={arrowIcon} alt="arrow" />
             </span>
-          </li>
+          </div>
           <section>
             <li className="w-full leading-8 text-sm">{question4 ? "We can't say, but we know for sure that our product can meet all your needs." : null}</li>
           </section>
         </section>
-      </ul>
+      </template>
       <section className="pt-14">
         <Button text="More Info" />
       </section>
