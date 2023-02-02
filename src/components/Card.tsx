@@ -13,7 +13,7 @@ const Card: React.FC<ExtensionProps> = ({
   extensionVersion,
 }) => {
   return (
-    <main>
+    <section>
       <section className="lg:w-64 lg:h-80 h-hd w-72 flex flex-col items-center justify-center shadow-xl rounded-lg">
         <img
           src={extensionImage}
@@ -31,7 +31,7 @@ const Card: React.FC<ExtensionProps> = ({
           <Button text="Add & Install Extension" />
         </section>
       </section>
-    </main>
+    </section>
   );
 };
 
