@@ -32,7 +32,7 @@ const Faqs: React.FC = () => {
         Here are some of our FAQs. If you have any other questions you'd like
         answered please feel free to email us.
       </p>
-      <template className="pt-6 lg:w-Extensionwidth w-96 px-4 lg:text-sm cursor-pointer">
+      <div className="pt-6 lg:w-Extensionwidth w-96 px-4 lg:text-sm cursor-pointer">
         <section className="flex flex-col border-b-2 lg:border-t-2">
           <div
             className="flex justify-between items-center py-4"
@@ -92,7 +92,7 @@ const Faqs: React.FC = () => {
             <div className="w-full leading-8 text-sm">{question4 ? "We can't say, but we know for sure that our product can meet all your needs." : null}</div>
           </section>
         </section>
-      </template>
+      </div>
       <section className="pt-14">
         <Button text="More Info" />
       </section>
