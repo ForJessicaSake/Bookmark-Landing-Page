@@ -89,7 +89,7 @@ const Faqs: React.FC = () => {
             </span>
           </div>
           <section>
-            <li className="w-full leading-8 text-sm">{question4 ? "We can't say, but we know for sure that our product can meet all your needs." : null}</li>
+            <div className="w-full leading-8 text-sm">{question4 ? "We can't say, but we know for sure that our product can meet all your needs." : null}</div>
           </section>
         </section>
       </template>
