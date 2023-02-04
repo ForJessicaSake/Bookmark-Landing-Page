@@ -4,7 +4,7 @@ import Button from "../components/button/CustomButton";
 import GrayButton from "../components/button/GrayButton";
 const Hero: React.FC = () => {
   return (
-    <section className="flex flex-col justify-center items-center mt-36 lg:flex-row lg:flex-row-reverse lg:px-14 lg:justify-between">
+    <section id="hero" className="flex flex-col justify-center items-center mt-36 lg:flex-row lg:flex-row-reverse lg:px-14 lg:justify-between">
       <section className="relative h-52 ">
         <figure className="bg-Blue w-80 h-44 rounded-l-full relative left-10 lg:left-24 lg:h-56 lg:w-wth">
         </figure>

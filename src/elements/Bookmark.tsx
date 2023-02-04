@@ -2,7 +2,7 @@ import Button from "../components/button/CustomButton";
 import BookmarkImage from "../assets/illustration-bookmark.svg";
 const Bookmark: React.FC = () => {
   return (
-    <section className="flex flex-col lg:flex-row lg:flex lg:justify-between items-center">
+    <section id="bookmark"className="flex flex-col lg:flex-row lg:flex lg:justify-between items-center">
       <section className="relative h-52 mt-24 lg:w-6/12">
         <figure className="bg-Blue w-width h-44 rounded-r-full relative right-24 lg:h-80 lg:w-wdd">
           {" "}

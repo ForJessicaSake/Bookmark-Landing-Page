@@ -1,6 +1,6 @@
 const Features: React.FC = () => {
   return (
-    <section className="flex flex-col justify-center items-center pt-14">
+    <section id="features" className="flex flex-col justify-center items-center pt-14">
       <h1 className="lg:text-2xl text-3xl font-bold py-4 text-Heading">
         Features
       </h1>

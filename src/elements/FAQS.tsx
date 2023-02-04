@@ -26,7 +26,7 @@ const Faqs: React.FC = () => {
     };
 
   return (
-    <section className="flex flex-col justify-center items-center pt-24 px-6 lg:px-0">
+    <section id="faqs" className="flex flex-col justify-center items-center pt-24 px-6 lg:px-0">
       <h1 className="text-3xl lg:text-2xl font-bold text-center leading-10">
         Frequently Asked Questions
       </h1>

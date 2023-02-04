@@ -2,7 +2,7 @@ import CallToAction from "../components/button/CallToAction";
 
 const Contact:React.FC = () => {
   return (
-    <section className="flex flex-col h-96 justify-center items-center mt-20 bg-down w-screen text-downText px-2">
+    <section id="contact" className="flex flex-col h-96 justify-center items-center mt-20 bg-down w-screen text-downText px-2">
       <h4 className="text-lg font-semibold tracking-widest pb-4">
         35,000 + ALREADY JOINED
       </h4>
