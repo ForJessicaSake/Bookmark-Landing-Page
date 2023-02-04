@@ -14,7 +14,7 @@ const Bookmark: React.FC = () => {
         />
       </section>
       <section className="lg:w-5/12 lg:text-start flex flex-col justify-center items-center lg:justify-start lg:items-start lg:pt-20">
-        <h1 className="lg:text-2xl text-3xl text-heading font-bold">
+        <h1 className="lg:text-2xl text-3xl text-heading font-bold lg:px-0 px-4">
           Bookmark in one click
         </h1>
         <p className="w-wd lg:w-96 lg:leading-8 text-text lg:text-base mt-4 leading-7 text-center lg:text-start text-base mb-4">

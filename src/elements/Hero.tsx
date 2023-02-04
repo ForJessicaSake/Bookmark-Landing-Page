@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
       </section>
 
       <section className="flex flex-col items-center justify-center mt-4 text-center lg:text-start lg:items-start">
-        <h1 className="text-4xl font-bold w-96 text-Heading leading-relaxed lg:leading-10">
+        <h1 className="text-3xl lg:text-4xl font-bold w-96 text-Heading leading-relaxed lg:leading-10">
           A Simple Bookmark Manager
         </h1>
         <p className="w-wd py-8 lg:py-4 text-base text-text leading-7 lg:text-base lg:w-wth lg:leading-8">
