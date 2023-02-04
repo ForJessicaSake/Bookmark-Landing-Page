@@ -7,6 +7,8 @@ const Faqs: React.FC = () => {
     const [question2, setQuestion2] = useState<boolean>(false);
     const [question3, setQuestion3] = useState<boolean>(false);
     const [question4, setQuestion4] = useState<boolean>(false);
+
+
     const handleQuestion1 = () => {
       setQuestion1(!question1);
     };
