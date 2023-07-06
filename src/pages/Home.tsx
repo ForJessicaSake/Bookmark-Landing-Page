@@ -9,7 +9,7 @@ import Footer from "../elements/Footer";
 
 function Home() {
   return (
-    <main className="overflow-x-hidden font-font">
+    <main className="overflow-x-hidden font-font 2xl:mx-auto 2xl:container">
         <Navbar />
         <Hero />
         <Features />
